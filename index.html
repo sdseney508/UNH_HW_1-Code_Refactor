@@ -33,73 +33,90 @@
         </section>
     </header>
 
+    <!--Inserts the digital Marketing Meeting image underneath the navigation pane.
+    the formating for the image is contained in the .hero class in the style.css file
+    contained in the assets folder.-->
     <Section class="hero">
-
     </section>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-                style="width: 500px;height: 500px;" />
+
+    <!--The following three sections are for the services offered.  They use id's instead of classes
+        to enable the functionality of the navigation pane at the top.-->
+    <Section class="content">
+        <!--changed to an id instead of a class, added the class selector in.  Changed all height and 
+        width styles to be percentages of the boxes to try and accomomdate different screen sizes and
+    moved them over to the style sheet to make this cleaner to read.  The styles are in class .contents img
+    -->
+        <section id="search-engine-optimization" class="services">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Image of SEO strategies."/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right"
-                style="width: 500px;height: 500px;" />
+        </section>
+
+        <section id="online-reputation-management" class="services">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Image of Laptop showing a slide
+            depicting a Reputation Trendline."/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
                 internet connection to say whatever they want about your business. Online Reputation Management gives
                 you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left"
-                style="width: 500px;height: 500px;" />
+        </section>
+
+        <section id="social-media-marketing" class="services">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Image depicting the different
+            types of social media marketing strategies such as liking on Facebook or Tweeting about a product." />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+    </Section>
+
+    <section class="benefits"> 
+        <!--moved image styling over to the .benefits class in the .css-->
+        <section> <!--lead generation section-->
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" style="width: 500px;height: 500px;" />
+            <img src="./assets/images/lead-generation.png"  alt="Image showing an idea tunrning into a cash flow."/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+
+        <section> <!--brand awareness section-->
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" style="width: 500px;height: 500px;" />
+            <!--autoscaled the height and width-->
+            <img src="./assets/images/brand-awareness.png" alt="Image showing an idea symbol above a person." />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" style="width: 500px;height: 500px;" />
+        </section>
+
+        <section>
+            <h3>Cost Management</h3><!--cost awareness section-->
+            <!--autoscaled the height and width-->
+            <img src="./assets/images/cost-management.png" alt="Image showing several coins." />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </section>
+
+    <section class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </section>
 </body>
 
 </html>

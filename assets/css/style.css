@@ -5,17 +5,23 @@
 }
 
 body {
-<<<<<<< HEAD
+
     background-color: #d9dcd6
     ;
 }
 
-/*Classes for everything in the header section.*/
-=======
-    background-color: #d9dcd6;
+/*font color for links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
+/*font size for paragraph items  */
+p {
+    font-size: 16px;
+}
+
+/*Classes for everything in the header section.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,10 +29,7 @@ body {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 /*Defines the format for everything in the header.  Changed the div to section.*/
-=======
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -36,12 +39,8 @@ body {
     color: #d9dcd6;
 }
 
-<<<<<<< HEAD
 /*Defines the font, margins, padding, float and font size for everything in a section in the header.*/
 .header section {
-=======
-.header div {
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,51 +48,25 @@ body {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
 /*removes the bullets before each list item*/
 .header ul {
     list-style-type: none;
+    display: flex;
 }
 
 /*sets the list as inline instead of vertical*/
 .header ul li {
-=======
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     display: inline-block;
     margin-left: 25px;
 }
 
-<<<<<<< HEAD
-/*font color for links*/
-=======
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-<<<<<<< HEAD
-/*font size for paragraph items  */
-=======
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
-p {
-    font-size: 16px;
-}
-
+/* formating for the top image on the website. */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-<<<<<<< HEAD
-    background-image: url("./images/digital-marketing-meeting.jpg");
-=======
     background-image: url("../images/digital-marketing-meeting.jpg");
->>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     background-size: cover;
     background-position: center;
 }
@@ -108,10 +81,16 @@ p {
     margin-left: 25px;
 }
 
+/*styling for the contents section class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.content img{
+    width: 25%;
+    height: 100%;
 }
 
 .benefits {
@@ -123,8 +102,74 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
+/*collapsed all the benefits styling into a single class since they
+are repetetive.  commented out the old ones and moved them to 
+the bottom of the file in case there ever became a reason 
+to seperate them out again*/
+
+/*  collapsed all benefits h3 styling into a single class since 
+were repetitive across the different types of benefits.  The
+old classes are below for future use if needed.*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Collapsed the benefitstype img into a single class.
+moved old ones to the bottom in case there is ever a need
+for different styling in that block  */
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 100%;
+}
+
+/*collapsed into a single class for the three services.  moved the old ones to
+the bottom in case they are ever needed again. */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*collapsed the image formats into a single .services img class
+moved the old ones to the bottom.  */
+.services img {
+    max-height: 200px;
+}
+
+/*made a .services h2 style  */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
+/*as there were repetetive classes, i moved the old ones down here
+in case there is a need in the future to break out differenct
+classes for each of the services.
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -171,7 +216,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -198,7 +242,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -212,9 +255,12 @@ p {
     max-height: 200px;
 }
 
+
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+
 }
 
 .online-reputation-management h2 {
@@ -225,15 +271,5 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
+*/
