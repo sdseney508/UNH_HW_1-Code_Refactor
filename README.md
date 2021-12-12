@@ -54,7 +54,7 @@ GIVEN a webpage meets accessibility standards:
 
 -[Features](#features)
 
--[How To Contribute](#how to contribute)
+-[How To Contribute](#"how to contribute")
 
 -[Tests](#tests)
 
@@ -67,6 +67,7 @@ N/A
 
 ## Credits
 For a good review of formating and descriptions of semantic elements and html and CSS tutorials:  https://www.w3schools.com/html/default.asp
+
 ## License
 License file located at: https://github.com/sdseney508/UNH_HW_1-Code_Refactor/blob/main/license.txt
 
