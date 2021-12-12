@@ -5,11 +5,17 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: #d9dcd6
     ;
 }
 
 /*Classes for everything in the header section.*/
+=======
+    background-color: #d9dcd6;
+}
+
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,7 +23,10 @@ body {
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*Defines the format for everything in the header.  Changed the div to section.*/
+=======
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -27,8 +36,12 @@ body {
     color: #d9dcd6;
 }
 
+<<<<<<< HEAD
 /*Defines the font, margins, padding, float and font size for everything in a section in the header.*/
 .header section {
+=======
+.header div {
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,6 +49,7 @@ body {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 /*removes the bullets before each list item*/
 .header ul {
     list-style-type: none;
@@ -43,17 +57,30 @@ body {
 
 /*sets the list as inline instead of vertical*/
 .header ul li {
+=======
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     display: inline-block;
     margin-left: 25px;
 }
 
+<<<<<<< HEAD
 /*font color for links*/
+=======
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 /*font size for paragraph items  */
+=======
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
 p {
     font-size: 16px;
 }
@@ -62,7 +89,11 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+<<<<<<< HEAD
     background-image: url("./images/digital-marketing-meeting.jpg");
+=======
+    background-image: url("../images/digital-marketing-meeting.jpg");
+>>>>>>> 657a79648d9399c97e8ac3ffd5ed1287bdcd5d73
     background-size: cover;
     background-position: center;
 }
