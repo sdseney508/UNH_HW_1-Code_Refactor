@@ -54,7 +54,7 @@ GIVEN a webpage meets accessibility standards:
 
 -[Features](#features)
 
--[How To Contribute](#"how to contribute")
+-[How To Contribute](#'how to contribute')
 
 -[Tests](#tests)
 
