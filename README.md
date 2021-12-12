@@ -54,7 +54,7 @@ GIVEN a webpage meets accessibility standards:
 
 -[Features](#features)
 
--[How To Contribute](#"how to contribute")
+-[How To Contribute](#how_to_contribute)
 
 -[Tests](#tests)
 
@@ -77,7 +77,7 @@ N/A for this project.
 ## Features
 N/A for this project.
 
-## "How to Contribute"
+## How_to_contribute
 N/A
 
 ## Tests
