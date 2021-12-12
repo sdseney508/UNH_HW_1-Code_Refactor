@@ -37,7 +37,7 @@
     the formating for the image is contained in the .hero class in the style.css file
     contained in the assets folder.-->
     <Section class="hero">
-    </section>
+    </Section>
 
     <!--The following three sections are for the services offered.  They use id's instead of classes
         to enable the functionality of the navigation pane at the top.-->
@@ -46,7 +46,7 @@
         width styles to be percentages of the boxes to try and accomomdate different screen sizes and
     moved them over to the style sheet to make this cleaner to read.  The styles are in class .contents img
     -->
-        <section id="search-engine-optimization" class="services">
+        <Section id="search-engine-optimization" class="services">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Image of SEO strategies."/>
             <h2>Search Engine Optimization</h2>
             <p>
@@ -54,9 +54,9 @@
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
-        </section>
+        </Section>
 
-        <section id="online-reputation-management" class="services">
+        <Section id="online-reputation-management" class="services">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Image of Laptop showing a slide
             depicting a Reputation Trendline."/>
             <h2>Online Reputation Management</h2>
@@ -65,9 +65,9 @@
                 internet connection to say whatever they want about your business. Online Reputation Management gives
                 you the control over what potential customers see when they search for your business.
             </p>
-        </section>
+        </Section>
 
-        <section id="social-media-marketing" class="services">
+        <Section id="social-media-marketing" class="services">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Image depicting the different
             types of social media marketing strategies such as liking on Facebook or Tweeting about a product." />
             <h2>Social Media Marketing</h2>
@@ -76,21 +76,21 @@
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
-        </section>
+        </Section>
     </Section>
 
-    <section class="benefits"> 
+    <Section class="benefits"> 
         <!--moved image styling over to the .benefits class in the .css-->
-        <section> <!--lead generation section-->
+        <Section class="benefit"> <!--lead generation section-->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png"  alt="Image showing an idea tunrning into a cash flow."/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
-        </section>
+        </Section>
 
-        <section> <!--brand awareness section-->
+        <Section class="benefit"> <!--brand awareness section-->
             <h3>Brand Awareness</h3>
             <!--autoscaled the height and width-->
             <img src="./assets/images/brand-awareness.png" alt="Image showing an idea symbol above a person." />
@@ -98,9 +98,9 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
-        </section>
+        </Section>
 
-        <section>
+        <Section class="benefit">
             <h3>Cost Management</h3><!--cost awareness section-->
             <!--autoscaled the height and width-->
             <img src="./assets/images/cost-management.png" alt="Image showing several coins." />
@@ -108,15 +108,20 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
-        </section>
-    </section>
+        </Section>
+    </Section>
 
-    <section class="footer">
+    <!--made a new footer section.-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </section>
+    </footer>  
+
 </body>
+    
+
+
 
 </html>

@@ -5,7 +5,6 @@
 }
 
 body {
-
     background-color: #d9dcd6
     ;
 }
@@ -93,43 +92,6 @@ p {
     height: 100%;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*collapsed all the benefits styling into a single class since they
-are repetetive.  commented out the old ones and moved them to 
-the bottom of the file in case there ever became a reason 
-to seperate them out again*/
-
-/*  collapsed all benefits h3 styling into a single class since 
-were repetitive across the different types of benefits.  The
-old classes are below for future use if needed.*/
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Collapsed the benefitstype img into a single class.
-moved old ones to the bottom in case there is ever a need
-for different styling in that block  */
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    width: 100%;
-    height: 100%;
-}
-
 /*collapsed into a single class for the three services.  moved the old ones to
 the bottom in case they are ever needed again. */
 .services {
@@ -141,29 +103,75 @@ the bottom in case they are ever needed again. */
     color: #ffffff;
 }
 
+/*made a .services h2 style  */
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
 /*collapsed the image formats into a single .services img class
 moved the old ones to the bottom.  */
 .services img {
     max-height: 200px;
 }
 
-/*made a .services h2 style  */
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*collapsed all the benefits styling into a single class since they
+are repetetive.  commented out the old ones and moved them to 
+the bottom of the file in case there ever became a reason 
+to seperate them out again*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
 }
+
+.benefit {
+    margin-bottom: 32px;
+}
+
+/*  collapsed all benefits h3 styling into a single class since 
+were repetitive across the different types of benefits.  The
+old classes are below for future use if needed.*/
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Collapsed the benefitstype img into a single class.
+moved old ones to the bottom in case there is ever a need
+for different styling in that block  */
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    height: 60%;
+}
+
 
 }
 
 .footer {
-    padding: 30px;
     clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    width: 100%;
 }
 
+/*styling for footer section.  Made it a display block so that it will fall below the other sections.  */
 .footer h2 {
+
     font-size: 20px;
+    display: block;
+
 }
 
 
