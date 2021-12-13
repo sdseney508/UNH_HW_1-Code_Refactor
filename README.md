@@ -1,4 +1,4 @@
-# UNH_HW_1-Code_Refactor / Horiseon Code Refactor Projecy
+# UNH_HW_1-Code_Refactor / Horiseon Code Refactor Project
 Repository for UNH SW Bootcamp HW #1-Code Refactor
 
 ## Description
