@@ -39,7 +39,11 @@ p {
 }
 
 /*Defines the font, margins, padding, float and font size for everything in a section in the header.*/
+<<<<<<< HEAD
 .header nav {
+=======
+nav {
+>>>>>>> 243e1141b57f30e5808fec29b28f3d342462e826
     padding-top: 15px;
     margin-right: 20px;
     float: right;
